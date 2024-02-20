@@ -1,0 +1,119 @@
+Sure, here's a simple example of HTML code for a timetable with the subjects MWOC, MPMC, WC, VLSI, and OE:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Timetable</title>
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #c75858;
+    padding: 8px;
+    text-align: center;
+    border-width: 2PX;
+  }
+  th {
+    background-color:rgb(146, 173, 118);
+  }
+</style>
+</head>
+<body>
+
+<h2 style="text-align: center; background-color: aquamarine; border: chocolate;">Timetable</h2>
+
+<table>
+  <TR>
+    <TD colspan="10"><B>ACADEMIC YEAR:2023-24</B></TD>
+  </TR>
+  <tr>
+    <th></th>
+    
+    <th>9:00-9:50</th>
+    <th>9:50-10:40</th>
+    <th>10:40-10:55</th>
+    <th>10:55-11:45</th>
+    <th>11:45-12:35</th>
+    <th>12:35-01:30</th>
+    <th>01:30-02:20</th>
+    <th>02:20-03:10</th>
+    <th>03:10-04:10</th>
+  </tr>
+  <tr>
+    <td><b>MONDAY</b></td>
+    <td>MWOC</td>
+    <td>MPMC</td>
+    <td rowspan="6"><B>BREAK</B></td>
+    <td  colspan="2" style="background-color: red;">OPEN ELECTIVE</td>
+    <td ROWspan="6">LUNCH BREAK</td>
+    <TD style="background-color: #c75858;" colspan="2">COMMUNICATONS LAB</TD>
+    <TD>VLSI</TD>
+
+  </tr>
+  <tr>
+    <td><b>TUESDAY</b></td>
+    <td>WC</td>
+    <td>MWOC</td>
+    <td>MPMC</td>
+    <td>VLSI</td>
+    <td>LUNCH BREAK</td>
+    <TD>WC</TD>
+    <TD>VLSILBT</TD>
+    
+  
+  </tr>
+  <tr>
+    <td><b>WEDNESDAY</b></td>
+    <td>WC</td>
+    <td>MPMCLBT</td>
+    <td colspan="2" style="background-color: red;">OPEN ELECTIVE</td>
+    <TD>VLSI</TD>
+    <TD>MPMC</TD>
+    <TD>MWOCLT</TD>
+    
+  </tr>
+  <TR>
+    <td><b>THURSDAY</b></td>
+    <td colspan="2" style="background-color: aqua;">MWOC/MPMC</td>
+    <td>MWOC</td>
+    <TD>VLSI</TD>
+    
+    <TD>MPMC</TD>
+    <TD>COMMUNICATONS LAB</TD>
+    <TD>WC</TD>
+  </tr>
+  
+  <tr>
+    <td><b>FRIDAY</b></td>
+    <td colspan="2" style="background-color: rgb(8, 170, 170);">MWOCL/VLSI</td>
+    
+    <td>MWOC</td>
+    <TD style="background-color: rgb(14, 182, 182);">COUN</TD>
+    
+    <TD>OE</TD>
+    <TD>VLSI</TD>
+    <TD>WC</TD>
+  </tr>
+  
+  <tr>
+    <td><b>SATURDAY</b></td>
+    <td colspan="2" style="background-color: aqua;">VLSI/MPMC</td>
+    
+    <td>MWOC</td>
+    <TD>MPMC</TD>
+    
+    <TD>VLSI</TD>
+    <TD colspan="2" style="background-color: bisque;">ACTIVITY</TD>
+    
+    </tr>
+  
+  <!-- Add more rows for additional time slots if needed -->
+</table>
+
+</body>
+</html>
